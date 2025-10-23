@@ -1,0 +1,16 @@
+{
+  "exp_name":"HeartNet1Dtest",
+  "type": "Pipeline1D",
+  "device": "cuda",
+  "model": "HeartNet",
+  "model_path": "experiments（block2+0.6+0.99prune）/HeartNet1D/checkpoints/00000019.pth",
+  "ecg_data": "mit-bih-arrhythmia-database-denoised",
+
+  "json":"scripts - yuan/val(mit).json",
+  "mapping_json": "scripts - yuan/class-mapper(mit).json",
+  "num_classes": 8,
+
+  "batch_size": 128,
+  "num_workers": 3,
+  "exp_dir" : "experiments-test"
+}
