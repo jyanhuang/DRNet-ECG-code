@@ -1,7 +1,7 @@
 The code of the proposed DRNet-ECG: Multi-Class Arrhythmia ECG Signal Classification with A Deep Residual Network
 
 How to run the codes:
-1. Preparing:
+1. Preparing
 pakages and vsersions：
 albumentations==0.4.3
 efficientnet_pytorch==0.6.3
@@ -21,7 +21,7 @@ wfdb==2.2.1
 Pillow<7
 
 2. Generating 1D ECG signal：
-    Generate 1D data files running `cd scripts && python dataset-generation-pool.py
+    Generate 1D data files running Generate 1D data files running `cd scripts && python dataset-generation-pool.py`
 
 3. Generating json files：create_json.py
 
@@ -31,6 +31,7 @@ Pillow<7
 5. Test： 
 	terminal command-- use `pipeline.py --config configs/pipelines/config/json` to test the model using ECG data
 
+
 6. Tools：ECG signal denosing：signal denoising.py
                      visualization of weight ditribution：weight ditribution.py
                      signal visualization：weight ditribution.py
@@ -38,6 +39,6 @@ Pillow<7
 
 7.  dataset roads：
 		(1) MIT-BIH：put the data files into ./mit-bih/mit-bih-arrhythmia-database-1.0.0
-    (2) INCART：put the data files into ./st-petersburg-incart-12-lead-arrhythmia-database-1.0.0/files
+        (2) INCART：put the data files into ./st-petersburg-incart-12-lead-arrhythmia-database-1.0.0/files
 Note: due to GitHub restrictions, these two datasets are not uploaded yet. If needed, please send an email to jyanhuang25@163.com or jiayan.huang@upc.edu to request them.
 
