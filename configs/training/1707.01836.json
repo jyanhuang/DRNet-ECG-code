@@ -1,0 +1,21 @@
+{
+  "exp_name":"HeartNet1D",
+  "type": "Trainer1D",
+  "device": "cuda",
+  "model": "HeartNet",
+"model_path": "",
+  "train_json": "scripts - yuan/train(mit).json",
+  "val_json": "scripts - yuan/val(mit).json",
+  "mapping_json": "scripts - yuan/class-mapper(mit).json",
+  "num_classes": 8,
+  "prune": "True",
+  "batch_size": 128,
+  "warmup_epochs": 2,
+  "optim": "Adam",
+  "optim_params":
+  {
+    "lr": 1e-3
+  },
+  "num_workers": 3,
+  "exp_dir" : "experiments",
+  "epochs": 20}
