@@ -39,6 +39,6 @@ Pillow<7
 
 7.  dataset roads：
 		(1) MIT-BIH：put the data files into ./mit-bih/mit-bih-arrhythmia-database-1.0.0
-        (2) INCART：put the data files into ./st-petersburg-incart-12-lead-arrhythmia-database-1.0.0/files
+        (2) INCART：put the data files into ./incart/st-petersburg-incart-12-lead-arrhythmia-database-1.0.0/files or ./st-petersburg-incart-12-lead-arrhythmia-database-1.0.0/files
 Note: due to GitHub restrictions, these two datasets are not uploaded yet. If needed, please send an email to jyanhuang25@163.com or jiayan.huang@upc.edu to request them.
 
